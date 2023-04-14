@@ -6,7 +6,7 @@ public class PatternMarker {
     public PatternMarker() {
         System.out.println("Hi pattern maker");
 //        pattern1();
-        pattern5();
+        pattern6();
     }
 
     public void pattern1() {
@@ -38,12 +38,21 @@ public class PatternMarker {
 }
 }
     public void pattern5() {
-        for (int w = 0; w<5; w++) {
+        for (int w = 1; w<5; w++) {
             for (int c = 1; c<=w; c++) {
-                System.out.print(w);
+                System.out.print(" ");
             }
-                System.out.println();
+                System.out.println(w);
             }
 
         }
+    public void pattern6() {
+        for (int w = 1; w<6; w++) {
+            for (int c = 1; c<=w; c++) {
+                System.out.print("");
+            }
+            System.out.println(w);
+        }
+
+    }
     }
